@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Header CSS */
+
+.container {
+    width: 750px;
+    height: 450px;
+    background-color: white;
+    border: solid 2px white;
+    border-radius: 10px;
+    box-shadow: 1px 2px 12px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    text-decoration: underline;
+    font-size: 44px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0;
+}
+
+.description {
+    letter-spacing: 0.2px;
+    padding: 5px 80px 16px 80px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button {
+    background-color: #E8D7CE;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #d8c8bf;
+}
+
+
+/* Section CSS */
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #ffffff;
+    height: 680px;
+    width: 100%;
+}
+
+#header {
+    background-image: url(../Images/pets.png);
+    background-size: cover;
+}
+
+#question1 {
+    background-color: #E8D7CE;
+}
+
+#question2 {
+background-color: #fe928cb9;
+color: #ffffff;
+}
+
+#final-page {
+    background-color: #E8D7CE;
+    height: 620px;
+}
+
+#footer {
+    color: #000000;
+    background-color: #fe928cb9;
+    height: 60px;
+}

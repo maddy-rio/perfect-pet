@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
         <title>Perfect Pet Quiz</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="paw.png">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <link rel="icon" href="./Images/paw.png">
     </head>
 
     <body>
          <!-- Header -->
         <section id="header">
-         
+         <div class="container">
+            <div class="header-content">
+              <h1 class="title">Your Perfect Pet Quiz!</h1>
+              <p class="description">Curious about which adorable companion is meant for you? Take our friendly quiz and unlock the secret to your ideal pet companion! With just a couple of questions, you'll discover the furry, feathered, or finned friend that's perfect for your lifestyle and personality. Ready to embark on this exciting journey? Let's dive in and uncover your perfect pet match together!</p>
+              <button onclick="smoothScroll('#question1')">Take Quiz</button>
+            </div>
+
+         </div>
     </section>
 
     <!-- Question 1 -->
@@ -29,9 +37,9 @@
 
     <!-- Footer-->
     <section id="footer">
-        <p>Footer</p>
+      <p>© 2024 | Designed & coded by Maddy Rio | Illustrations by <a href="https://biscottodesign.com/" target="_blank">Biscotto Design</a></p>
     </section>
 
-        <script></script>
+        <script src="./Functions/quiz.js"></script>
     </body>
 </html>
