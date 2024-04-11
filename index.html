@@ -13,8 +13,8 @@
          <div class="container">
             <div class="header-content">
               <h1 class="title">Your Perfect Pet Quiz!</h1>
-              <p class="description">Curious about which adorable companion is meant for you? Take our friendly quiz and unlock the secret to your ideal pet companion! With just a couple of questions, you'll discover the furry, feathered, or finned friend that's perfect for your lifestyle and personality. Ready to embark on this exciting journey? Let's dive in and uncover your perfect pet match together!</p>
-              <button onclick="smoothScroll('#question1')">Take Quiz</button>
+              <p class="description">Curious about which adorable companion is meant for you? Take our friendly quiz and unlock the secret to your ideal pet companion! With just a couple of questions, you'll discover the furry, feathered, or finned friend that's perfect for your lifestyle and personality. Ready to embark on this exciting journey? Let's dive in and uncover your perfect pet match 🐾</p>
+              <button type="button" onclick="smoothScroll('#question1')">Take Quiz</button>
             </div>
 
          </div>
@@ -22,17 +22,41 @@
 
     <!-- Question 1 -->
     <section id="question1">
-<h1>Question 1</h1>
+
+<form>
+    <h1>How much time do you have for your pet?</h1>
+    <input type="radio"  name="time" value="option1">
+    <label for="option1">As much time as my pet needs!</label><br>
+    
+    <input type="radio"  name="time" value="option2">
+    <label for="option2">I work often, so would need to be okay spending time alone</label><br>
+    
+    <input type="radio"  name="time" value="option3">
+    <label for="option3">I have a busy schedule, so my pet should be low maintenance</label><br>
+    <button type="button" class="pink-button" onclick="smoothScroll('#question2')">Next question</button>
+  </form>
     </section>
 
     <!-- Question 2 -->
     <section id="question2">
-        <h1>Question 2</h1>
+
+<form>
+    <h1>What amount of pet fur can you tolerate?</h1>
+    <input type="radio"  name="time" value="option1">
+    <label for="option1">Prefer no pet hair (I have allergies!)</label><br>
+    
+    <input type="radio"  name="time" value="option2">
+    <label for="option2">I can only handle a small - medium amount of fur</label><br>
+    
+    <input type="radio"  name="time" value="option3">
+    <label for="option3">Pet fur does not bother me at all</label><br>
+    <button type="button" onclick="smoothScroll('#final-page')">Reveal my pet!</button>
+  </form>
     </section>
 
     <!-- Final Page -->
     <section id="final-page">
-        <h1>Final Page</h1>
+        <h1>Ready to find out your perfect pet?</h1>
     </section>
 
     <!-- Footer-->

@@ -1,7 +1,13 @@
+// Smooth scrolling function
 function smoothScroll(target) {
-    const targetElement = document.querySelector(target);
-  window.scrollTo({
-    top: targetElement.offsetTop,
-    behavior: 'smooth' // Use smooth scrolling behavior
-  });
+    const element = document.querySelector(target);
+    if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+    }
+}
+
+
+// Quiz function
+function getQuizResult() {
+
 }

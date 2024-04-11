@@ -37,6 +37,8 @@ a {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* Button CSS */
+
 button {
     background-color: #E8D7CE;
     border: none;
@@ -52,9 +54,16 @@ button {
 }
 
 button:hover {
-    background-color: #d8c8bf;
+    background-color: #dbcac1;
 }
 
+.pink-button {
+    background-color: #fe928cb9;
+}
+
+.pink-button:hover {
+    background-color: #fe928cfc;
+}
 
 /* Section CSS */
 
@@ -79,7 +88,7 @@ section {
 
 #question2 {
 background-color: #fe928cb9;
-color: #ffffff;
+
 }
 
 #final-page {
