@@ -9,7 +9,7 @@ section {
     justify-content: center;
     text-align: center;
     background-color: #ffffff;
-    height: 670px;
+    height: 680px;
     width: 100%;
 }
 
@@ -28,10 +28,10 @@ background-color: #fe928c7e;
 
 #final-page {
     background-color: #9c8f7f6d;
-    height: 610px;
+    height: 620px;
 }
 
 #footer {
-    background-color: #524743b6;
+    background-color: #fe928c7e;
     height: 60px;
 }
