@@ -14,7 +14,7 @@
             <div class="header-content">
               <h1 class="title">Your Perfect Pet Quiz!</h1>
               <p class="description">Curious about which adorable companion is meant for you? Take our friendly quiz and unlock the secret to your ideal pet companion! With just a couple of questions, you'll discover the furry or finned friend that's perfect for your lifestyle and personality. Ready to embark on this exciting journey? Let's dive in and uncover your perfect pet match 🐾</p>
-              <button type="button" onclick="smoothScroll('#question1')">Take Quiz</button>
+              <button class="button"type="button" onclick="smoothScroll('#question1')">Take Quiz</button>
             </div>
 
          </div>
@@ -57,7 +57,7 @@
     <input type="radio"  name="fur" value="option3">
     <label for="option3">Pet fur does not bother me at all</label><br>
   </div>
-    <button type="button" onclick="getQuizResult()">Reveal my pet!</button>
+    <button class="button" type="button" onclick="getQuizResult()">Reveal my pet!</button>
   </form>
 
     </div>
@@ -65,14 +65,11 @@
 
     <!-- Final Page -->
     <section id="final-page">
-      <div class="container">
-        <div class="final-content">
+      <div class="final-container">
         <h1 class="final-title" id="result" class="title">Your perfect pet is...</h1>
-        <img id="pet-image" src="./Images/questionMark.png"></img>
+        <img class="image" id="pet-image" src="./Images/questionMark.png"></img>
       <button type="button" class="pink-button" onclick="resetAndScrollToTop()">Take Quiz Again</button>
-      </div>
         </div>
-
     </section>
 
     <!-- Footer-->
