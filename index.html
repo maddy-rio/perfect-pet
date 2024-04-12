@@ -13,7 +13,7 @@
          <div class="container">
             <div class="header-content">
               <h1 class="title">Your Perfect Pet Quiz!</h1>
-              <p class="description">Curious about which adorable companion is meant for you? Take our friendly quiz and unlock the secret to your ideal pet companion! With just a couple of questions, you'll discover the furry, feathered, or finned friend that's perfect for your lifestyle and personality. Ready to embark on this exciting journey? Let's dive in and uncover your perfect pet match 🐾</p>
+              <p class="description">Curious about which adorable companion is meant for you? Take our friendly quiz and unlock the secret to your ideal pet companion! With just a couple of questions, you'll discover the furry or finned friend that's perfect for your lifestyle and personality. Ready to embark on this exciting journey? Let's dive in and uncover your perfect pet match 🐾</p>
               <button type="button" onclick="smoothScroll('#question1')">Take Quiz</button>
             </div>
 
@@ -22,41 +22,57 @@
 
     <!-- Question 1 -->
     <section id="question1">
+      <div class="container">
 
 <form>
-    <h1>How much time do you have for your pet?</h1>
+    <h1 class="question-title">How much time do you have for your pet?</h1>
+    <div class="question-description">
     <input type="radio"  name="time" value="option1">
     <label for="option1">As much time as my pet needs!</label><br>
     
     <input type="radio"  name="time" value="option2">
-    <label for="option2">I work often, so would need to be okay spending time alone</label><br>
+    <label  for="option2">I work often, so my pet would need to be okay spending time alone</label><br>
     
     <input type="radio"  name="time" value="option3">
-    <label for="option3">I have a busy schedule, so my pet should be low maintenance</label><br>
-    <button type="button" class="pink-button" onclick="smoothScroll('#question2')">Next question</button>
+    <label for="option3" >I have a busy schedule, so my pet should be low maintenance</label><br>
+  </div>
+    <button type="button" class="pink-button"  onclick="smoothScroll('#question2')">Next question</button>
   </form>
+</div>
     </section>
 
     <!-- Question 2 -->
     <section id="question2">
+      <div class="container">
 
 <form>
-    <h1>What amount of pet fur can you tolerate?</h1>
-    <input type="radio"  name="time" value="option1">
-    <label for="option1">Prefer no pet hair (I have allergies!)</label><br>
+    <h1 class="question-title">What amount of pet fur can you tolerate?</h1>
+    <div class="question-description">
+    <input type="radio"  name="fur" value="option1">
+    <label  for="option1">Prefer no pet hair (I have allergies!)</label><br>
     
-    <input type="radio"  name="time" value="option2">
-    <label for="option2">I can only handle a small - medium amount of fur</label><br>
+    <input type="radio"  name="fur" value="option2">
+    <label  for="option2">I can only handle a small - medium amount of fur</label><br>
     
-    <input type="radio"  name="time" value="option3">
+    <input type="radio"  name="fur" value="option3">
     <label for="option3">Pet fur does not bother me at all</label><br>
-    <button type="button" onclick="smoothScroll('#final-page')">Reveal my pet!</button>
+  </div>
+    <button type="button" onclick="getQuizResult()">Reveal my pet!</button>
   </form>
+
+    </div>
     </section>
 
     <!-- Final Page -->
     <section id="final-page">
-        <h1>Ready to find out your perfect pet?</h1>
+      <div class="container">
+        <div class="final-content">
+        <h1 class="final-title" id="result" class="title">Your perfect pet is...</h1>
+        <img id="pet-image" src="./Images/questionMark.png"></img>
+      <button type="button" class="pink-button" onclick="resetAndScrollToTop()">Take Quiz Again</button>
+      </div>
+        </div>
+
     </section>
 
     <!-- Footer-->

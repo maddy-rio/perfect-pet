@@ -10,6 +10,11 @@ a {
     font-weight: bold;
 }
 
+img {
+    width: auto;
+    height: 250px;
+}
+
 /* Header CSS */
 
 .container {
@@ -36,6 +41,45 @@ a {
     font-size: 18px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* Question CSS */
+
+.question-title {
+   padding: 0 100px 0 100px;
+    font-size: 35px;
+    margin-top: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.question-description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.2px;
+    font-size: 18px;
+    padding: 0 120px 34px 120px;
+    line-height: 1.4;
+    justify-content: start;
+   
+}
+
+/* Final page CSS */
+
+.final-title {
+    font-size: 44px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding-bottom: 8px;
+}
+
+.final-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 680px;
+    width: 100%;
+}
+
 
 /* Button CSS */
 
